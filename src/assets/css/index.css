@@ -595,6 +595,10 @@ footer img {
   .artistsWrap, .musicWrap {
     display: initial;
   }
+  .artistsWrap img, .musicWrap img {
+    height: auto;
+    width: 100%;
+  }
   #artists > h2.artists__title > span {
     display: none;
   }
