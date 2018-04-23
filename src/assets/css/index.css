@@ -451,6 +451,7 @@ footer img {
   }
   .ui.grid > .row > [class*="fourteen wide"].column {
     width: 100% !important;
+    /* overflow-x: hidden; */
   }
 
   .logoWrap {
@@ -500,6 +501,9 @@ footer img {
   }
   .sidebarWrap {
     padding: .6rem 1.5rem;
+  }
+  header {
+    padding-top: 7rem;
   }
   header h1 > span, header > p {
     display: block;

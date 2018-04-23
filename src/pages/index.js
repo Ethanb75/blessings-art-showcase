@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import { Grid, Menu, Button, Input, Icon, Visibility } from 'semantic-ui-react';
 
-import vid from '../assets/blessings.mp4';
 import logo from '../assets/logo.png';
 import when from '../assets/calendar2.svg';
 import where from '../assets/map4.svg';
@@ -43,7 +42,7 @@ class IndexPage extends Component {
     return (
       <div>
         <div className="videoBackground">
-          <video src={vid} muted loop playsInline autoPlay />
+          <video src="https://blessings-art-showcase-site.s3.amazonaws.com/blessings.mp4" muted loop playsInline autoPlay />
         </div>
         <div className="content">
           <div className="logoWrap">

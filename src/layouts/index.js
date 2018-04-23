@@ -7,7 +7,6 @@ import './index.css';
 import '../assets/css/template.css';
 
 import { Grid, Menu } from 'semantic-ui-react';
-
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -15,6 +14,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: "Blessings art showcase - Atlanta's top showcase of creatives, artists, and photographers | May 23rd, League Tavern" },
         { name: 'keywords', content: 'art, showcase, Atlanta art, Atlanta art showcase, blessings art, blessings, blessings art showcase' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' }
       ]}
     />
     <Grid>
