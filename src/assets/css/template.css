@@ -1,0 +1,28 @@
+/* below is large screen */
+.ui.grid > .column:not(.row), .ui.grid > .row > .column.sidebar {
+  box-sizing: border-box;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  background-color: #dcdade;
+}
+.ui.column.grid > [class*="fourteen wide"].column, .ui.grid > .column.row > [class*="fourteen wide"].column, .ui.grid > .row > [class*="fourteen wide"].column, .ui.grid > [class*="fourteen wide"].column.gapFix {
+  width: 88% !important;
+  padding: 0;
+}
+
+.ui.button {
+  border-radius: 0;
+}
+.ui.input > input {
+  border-radius: 0;
+}
+
+
+@media screen and (max-width: 1280px) {
+  header h1 {
+    font-size: 10em;
+  }
+}
