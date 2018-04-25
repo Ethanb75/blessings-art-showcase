@@ -567,6 +567,9 @@ footer img {
   .logoWrap img {
     width: 8rem;
   }
+  .social a {
+    margin-right: .4rem;
+  }
   header h1 {
     font-size: 5em;
   }
