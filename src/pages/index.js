@@ -37,7 +37,11 @@ class IndexPage extends Component {
   }
 
   componentDidMount() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'UA-118150096-1');
   }
   render() {
     let ticketLink = 'https://www.eventbrite.com/e/blessings-artist-showcase-tickets-43759043477?utm_campaign=new_event_email&utm_medium=email&utm_source=eb_email&utm_term=viewmyevent_button'

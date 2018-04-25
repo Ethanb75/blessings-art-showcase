@@ -7,6 +7,7 @@
   margin: 0;
   right: 0;
   background-color: #dcdade;
+  -webkit-transform: translateZ(0)
 }
 .ui.column.grid > [class*="fourteen wide"].column, .ui.grid > .column.row > [class*="fourteen wide"].column, .ui.grid > .row > [class*="fourteen wide"].column, .ui.grid > [class*="fourteen wide"].column.gapFix {
   width: 88% !important;
