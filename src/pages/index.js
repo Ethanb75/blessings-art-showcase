@@ -19,14 +19,16 @@ import inspr from '../assets/artists/inspr.png';
 import jess from '../assets/artists/jessnellart.png';
 import lennox from '../assets/artists/lennox_ave.png';
 import leon from '../assets/artists/leon_mathis.png';
-import mello from '../assets/artists/mello_teddy.png';
+import mello from '../assets/artists/mello_ted.jpg';
 import mickey from '../assets/artists/mickeyvin.png';
 import mirage from '../assets/artists/mirage.png';
 import music3 from '../assets/artists/misticdrops.png';
 import phylli from '../assets/artists/phylli_williams.jpg';
 import quake from '../assets/artists/quake.png';
-import rod from '../assets/artists/rod.png';
+import rod from '../assets/artists/rod2.jpg';
 import shon from '../assets/artists/shon_pittman.png';
+import derrick from '../assets/artists/derrick.jpg';
+import prima from '../assets/artists/prima.png';
 
 
 class IndexPage extends Component {
@@ -200,6 +202,30 @@ class IndexPage extends Component {
                 </div>
               </div>
               <div>
+                <img src={mello} />
+                <p>The Mello Teddy</p>
+                <div className="artistInfo" onClick={() => window.open('https://www.instagram.com/themelloteddy/')} >
+                  <h3>Visual Artist</h3>
+                  <span>Click to discover</span>
+                </div>
+              </div>
+              <div>
+                <img src={prima} />
+                <p>Prima Colour</p>
+                <div className="artistInfo" onClick={() => window.open('https://www.instagram.com/primacolour/')} >
+                  <h3>Visual Artist</h3>
+                  <span>Click to discover</span>
+                </div>
+              </div>
+              <div>
+                <img src={derrick} />
+                <p>Derrick Rogue</p>
+                <div className="artistInfo" onClick={() => window.open('https://www.instagram.com/derrickrogue/')} >
+                  <h3>Visual Artist</h3>
+                  <span>Click to discover</span>
+                </div>
+              </div>
+              <div>
                 <img src={shon} />
                 <p>Shon Pittman</p>
                 <div className="artistInfo" onClick={() => window.open('https://www.instagram.com/soulfulvoyage/')} >
@@ -242,6 +268,12 @@ class IndexPage extends Component {
             </div>
           </section>
           {/* <h3>For information and inquiries, contact rodparkerdesigns@gmail.com</h3> */}
+          <section id="tickets">
+            <p>
+              Buy your tickets online and for a limited time recieve <strong>$5</strong> off.
+            </p>
+            <Button inverted onClick={() => window.open(ticketLink)}>Buy Tickets</Button>
+          </section>
           <footer>
             <div>
               <img src={logo} />
@@ -272,6 +304,7 @@ class IndexPage extends Component {
           <h3 className="questions">For information and inquiries, contact <a href="mailto:rodparkerdesigns@gmail.com">rodparkerdesigns@gmail.com</a></h3>
           <div id="copy">
             <span>&copy; 2018 Blessings</span>
+            <span><a href="https://antisocial.to/">created by AntiSocial</a></span>
             <span style={{ cursor: 'pointer' }} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Top</span>
           </div>
         </div>

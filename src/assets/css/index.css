@@ -286,7 +286,17 @@ header .ui.button:first-of-type {
   letter-spacing: .5px;
   z-index: 2;
 }
-
+#tickets {
+  padding: 2.5rem;
+  background-color: #9e146b;
+  text-align: center;
+  color: white;
+}
+#tickets p {
+  font-size: 1.5em;
+  letter-spacing: .5px;
+  margin-bottom: 1rem;
+}
 
 
 
@@ -332,10 +342,19 @@ footer img {
 #copy {
   padding: .5rem 10rem;
   color: #dcdade;
+  display: flex;
+  justify-content: space-between;
+}
+#copy a {
+  color: white;
 }
 #copy span:last-of-type {
   float: right;
 }
+
+
+
+
 @media screen and (max-width: 1380px) {
   header {
     padding: 15rem 0rem 10rem 10rem;
@@ -627,6 +646,9 @@ footer img {
   }
   .last {
     padding: 2rem 0rem 0rem 0rem;
+  }
+  #tickets p {
+    font-size: 1.2em;
   }
   footer {
     flex-direction: column;
