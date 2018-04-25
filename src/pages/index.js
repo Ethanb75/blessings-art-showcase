@@ -81,7 +81,7 @@ class IndexPage extends Component {
           <section id="info">
             <div>
               <h1>Info</h1>
-              <p><strong>Blessings </strong> is an art showcase featuring the hottest artists, photographers, and creatives located in Atlanta, GA. The event is also a fundraiser for the <strong>Cre8tiv Mastermind Art Program</strong> which helps young minds discover thier artistic potential. The showcase is the 23rd of May at the League Tavern.</p>
+              <p><strong>Blessings </strong> is an art showcase featuring the hottest artists, photographers, and creatives located in Atlanta, GA. The event is also a fundraiser for the <strong>Cre8tiv Mastermind Art Program</strong> which helps young minds discover their artistic potential. The showcase is the 23rd of May at the League Tavern.</p>
             </div>
             <div>
               <div>
