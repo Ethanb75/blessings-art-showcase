@@ -565,8 +565,11 @@ footer img {
   #info {
     padding: 5rem 2.5rem;
   }
+  #fund {
+    padding: 2rem;
+  }
   #fund p {
-    max-width: 85%;
+    max-width: none;
   }
   #artists {
     padding: 0rem 5rem 2.5rem 4rem;
