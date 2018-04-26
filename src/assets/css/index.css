@@ -670,10 +670,11 @@ footer img {
   #artists > h2.music__title {
     transform: rotate(-90deg);
     transform-origin: bottom left;
-    bottom: -16.9rem;
+    bottom: -19.3rem;
     position: relative;
     font-family: 'Open Sans Condensed';
     letter-spacing: .1em;
+    text-align: right;
   }
   .artistInfo > h3 {
     font-size: 1.3em;
