@@ -281,10 +281,12 @@ header .ui.button:first-of-type {
   position: relative;
 }
 #artists > h2.music__title {
-  text-align: center;
-  padding: 10rem 0rem .5rem 0rem;
-  font-size: 2.5em;
+  text-align: left;
+  padding: 7rem 0rem .5rem 0rem;
+  font-size: 5em;
   letter-spacing: 1px;
+  font-family: 'Open Sans Condensed';
+  letter-spacing: .1em;
 }
 
 .questions {
