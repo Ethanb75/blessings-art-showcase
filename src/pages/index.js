@@ -38,7 +38,7 @@ class IndexPage extends Component {
 
   componentDidMount() {
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-118150096-1');
@@ -308,8 +308,11 @@ class IndexPage extends Component {
           <h3 className="questions">For information and inquiries, contact <a href="mailto:rodparkerdesigns@gmail.com">rodparkerdesigns@gmail.com</a></h3>
           <div id="copy">
             <span>&copy; 2018 Blessings</span>
-            <span><a href="https://antisocial.to/">created by AntiSocial</a></span>
+            <span><a href="https://antisocial.to/">site by AntiSocial</a></span>
             <span style={{ cursor: 'pointer' }} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Top</span>
+          </div>
+          <div style={{ color: 'whitesmoke', textAlign: 'center' }}>
+            Icons by <a href="http://www.freepik.com" style={{ color: 'white' }}>Freepik</a> & <a href="https://smashicons.com/" style={{ color: 'white' }}>Smashicons</a> via <a href="http://www.flaticon.com" style={{ color: 'white' }}>flaticon.com</a>
           </div>
         </div>
       </div>

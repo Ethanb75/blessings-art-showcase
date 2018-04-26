@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Graduate|Open+Sans+Condensed:300|Saira+Condensed:100'); */
-@import url('https://fonts.googleapis.com/css?family=Lato:700|Open+Sans+Condensed:300|Open+Sans:700|Saira+Condensed:100');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:700|Saira+Condensed:100');
 * {
   font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
 }
@@ -27,10 +27,7 @@ header video {
 }
 header h1 {
   font-size: 15em;
-  /* font-family: 'Graduate', cursive; */
-  /* font-family: 'Allerta Stencil', sans-serif; */
   font-family: 'Saira Condensed', sans-serif;
-  /* font-family: 'Open Sans Condensed', sans-serif; */
   text-transform: uppercase;
   color: #dcdade;
   position: relative;
@@ -178,6 +175,8 @@ header .ui.button:first-of-type {
   padding-bottom: 1rem;
   transform: rotate(90deg) translateX(calc(100% + 2rem));
   transform-origin: bottom right;
+  font-family: 'Open Sans Condensed';
+  letter-spacing: .1em;
 }
 #artists > h2.artists__title > span {
   font-size: .25em;
@@ -643,6 +642,8 @@ footer img {
     transform-origin: bottom left;
     bottom: -16.9rem;
     position: relative;
+    font-family: 'Open Sans Condensed';
+    letter-spacing: .1em;
   }
   .artistInfo > h3 {
     font-size: 1.3em;
