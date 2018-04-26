@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import { Grid, Menu, Button, Input, Icon, Visibility } from 'semantic-ui-react';
+import { Grid, Menu, Button, Input, Icon, Popup } from 'semantic-ui-react';
 
 import logo from '../assets/logo.png';
 import when from '../assets/calendar2.svg';
@@ -76,7 +76,11 @@ class IndexPage extends Component {
               <Icon name='at' />
               <input />
             </Input>
-            <Button inverted>Sign Up</Button>
+            {/* <Button inverted>Sign Up</Button> */}
+            <Popup
+              trigger={<Button inverted>Sign Up</Button>}
+              content='Coming soon!'
+            />
           </section>
           <section id="info">
             <div>
@@ -97,6 +101,10 @@ class IndexPage extends Component {
                 <p><em>rodparkerdesigns@gmail.com</em>for any inquiries please contact Rod</p>
               </div>
             </div>
+          </section>
+          <section id="fund">
+            <h2>an event to help the future</h2>
+            <p>Attending the event helps young artists in the Atlanta area grow. The event is a fundraiser for the <a href="https://www.instagram.com/cre8tiv_mastermind/">Cre8tiv Mastermind Summer Art Program</a>. The program helps underprivileged young minds reach their artistic potential. We're accepting monetary and art supply donations.</p>
           </section>
           <section id="artists">
             <h2 className="artists__title">Featured Artists <span>click for more</span></h2>
@@ -302,7 +310,11 @@ class IndexPage extends Component {
                 <Icon name='at' />
                 <input />
               </Input>
-              <Button inverted>Sign Up</Button>
+              {/* <Button inverted>Sign Up</Button> */}
+              <Popup
+                trigger={<Button inverted>Sign Up</Button>}
+                content='Coming soon!'
+              />
             </div>
           </footer>
           <h3 className="questions">For information and inquiries, contact <a href="mailto:rodparkerdesigns@gmail.com">rodparkerdesigns@gmail.com</a></h3>

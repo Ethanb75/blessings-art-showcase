@@ -165,7 +165,31 @@ header .ui.button:first-of-type {
 }
 #info h1 {
   font-size: 5em;
+  font-family: 'Open Sans Condensed';
 }
+
+#fund {
+  background-color: #9e146b;
+  color: white;
+  text-align: center;
+  padding: 2.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#fund p {
+  max-width: 62%;
+}
+#fund p a {
+  color: white;
+  text-decoration: underline;
+}
+#fund h2 {
+  font-size: 2.5em;
+  font-family: 'Open Sans Condensed';
+}
+
+
 #artists {
   background-color: whitesmoke;
   padding: 2rem 10rem 5rem 10rem;
@@ -540,6 +564,9 @@ footer img {
   }
   #info {
     padding: 5rem 2.5rem;
+  }
+  #fund p {
+    max-width: 85%;
   }
   #artists {
     padding: 0rem 5rem 2.5rem 4rem;
