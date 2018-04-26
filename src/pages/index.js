@@ -60,7 +60,7 @@ class IndexPage extends Component {
 
             <div>
               <Button onClick={() => window.open(ticketLink)}>Buy Tickets</Button>
-              <Button inverted icon labelPosition='left' className="colorful" onClick={() => window.open(vid)}>
+              <Button inverted icon labelPosition='left' className="colorful" onClick={() => window.open('https://blessings-art-showcase-site.s3.amazonaws.com/blessings.mp4')}>
                 <Icon name='play' />
                 Video
               </Button>
