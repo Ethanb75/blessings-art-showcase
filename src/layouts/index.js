@@ -7,7 +7,6 @@ import './index.css';
 import '../assets/css/template.css';
 
 
-
 import { Grid, Menu } from 'semantic-ui-react';
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -16,7 +15,8 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: "Blessings art showcase - Atlanta's top showcase of creatives, artists, and photographers | May 23rd, League Tavern" },
         { name: 'keywords', content: 'art, showcase, Atlanta art, Atlanta art showcase, blessings art, blessings, blessings art showcase' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no' }
+        { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no' },
+        { name: 'google-site-verification', content: 'Nb3mpG8QWzpSRYVJf4W3lh41EwsnIpKbTQJNFOqEwTs' }
       ]}
       script={[
         { src: "https://www.googletagmanager.com/gtag/js?id=UA-118150096-1", async: true }
