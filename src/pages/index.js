@@ -335,7 +335,7 @@ class IndexPage extends Component {
           <h3 className="questions">For information and inquiries, contact <a href="mailto:rodparkerdesigns@gmail.com">rodparkerdesigns@gmail.com</a></h3>
           <div id="copy">
             <span>&copy; 2018 Blessings</span>
-            <span><a href="https://antisocial.to/">site by AntiSocial</a></span>
+            <span><a href="https://www.worldwidebusinessllc.com/">site: World Wide Business</a></span>
             <span style={{ cursor: 'pointer' }} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Top</span>
           </div>
           <div style={{ color: 'whitesmoke', textAlign: 'center' }}>
